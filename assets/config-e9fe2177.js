@@ -1,0 +1,2 @@
+const e=window.location.hostname,n=e!=="anvaka.github.io",o=n?`http://${e}:8081/`:"https://anvaka.github.io/map-of-github-data/",s="v1",t={serverUrl:"",vectorTilesTiles:`${o}${s}/points/{z}/{x}/{y}.pbf`,glyphsSource:`${o}/fonts/{fontstack}/{range}.pbf`,bordersSource:`${o}${s}/borders.geojson`,placesSource:`${o}${s}/places.geojson`,namesEndpoint:`${o}${s}/names`,graphsEndpoint:`${o}${s}/graphs`};export{t as c};
+//# sourceMappingURL=config-e9fe2177.js.map
